@@ -1,0 +1,24 @@
+.exercises-Card {
+    width: 370px;
+    height: 335px;
+    background: #fff;
+    border-top: 4px solid #FF2625;
+    /* border: 4px solid #FF2625; */
+    border-bottom-left-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+  }
+  .exercises-Card details{
+    border: 4px solid #FF2625;
+  }
+  .exercises-Card img {
+    height: 240px;
+  }
+  .exercises-Card:hover {
+    transform: scale(1.1, 1.1);
+  }  
