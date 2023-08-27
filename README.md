@@ -1,20 +1,24 @@
 # Fitness-App
 
-Fitness-App built using React.js. It utilizes React Router DOM for routing, UseState for managing application state.With the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples, pagination, exercise details, pull related videos from youtube, display similar exercises, and much more, 
+Welcome to the Fitness App built using React.js! This app is designed to help you explore a wide range of exercises, categorized by different muscle groups and exercise types. Whether you're a fitness enthusiast, an athlete, or just someone looking to stay healthy, this app has something for you. 
 ## Features
 
-- Creating a Beautiful User Interface using the Material UI .
-- Product browsing and searching capabilities.
-- Shopping cart functionality for adding and managing products.
-- User account creation and management.
-- Order placement and checkout process.
-- Integration with Axios for making HTTP requests to the mock API.
+- Creating a Beautiful User Interface.
+- Exercise Categories:Choose from a variety of exercise categories.
+- Muscle Groups:Target specific muscle groups with exercises tailored to your needs.
+- Exercise Details:Get detailed information about each exercise, including step-by-step instructions and tips for proper form.
+- Related Videos:We've integrated YouTube videos related to each exercise.
 
-## Technologies Used
+## Dependencies
 
-- React: A JavaScript library for building user interfaces.
-- React Router DOM: A routing library for handling navigation between different pages.
-- Material UI: Creating a Beautiful User Interface using.
+This project was built using the following key technologies:
+
+- React.js.
+- React Router DOM.
+- Material UI.
+- React Loader Spinner.
+- YouTube API (for fetching related exercise videos).
+- Any additional dependencies are listed in the package.json file.
 
 ## Installation
 
@@ -45,11 +49,9 @@ Fitness-App built using React.js. It utilizes React Router DOM for routing, UseS
 5. Open your browser and visit http://localhost:3000 to access fitness-app.
 
 ## Usage
-- Create a user account and manage your profile information.
-- Browse through different product categories.
-- Add products to the shopping cart and manage the cart contents.
-- Access the admin panel using the provided credentials to manage products, inventory, and orders.
-- Proceed to the checkout process to place an order.
+- Home Page: Upon opening the app, you'll land on the home page where you can explore exercise categories and muscle groups.
+- Categories and Muscle Groups: Click on a category or muscle group to view relevant exercises.
+- Exercise Details: In the exercise details page, you'll find instructions, images, and related YouTube videos.
 
 ## Hosted Version
 
