@@ -2,6 +2,7 @@ import { Box, Stack, Typography, Button } from '@mui/material'
 import React from 'react'
 import './HeroBanner.css'
 import HeroBannerImage from '../../assets/images/banner.png'
+// import HeroBannerImage from '../../assets/images/banner2.png'
 
 
 const HeroBanner = () => {
@@ -11,7 +12,7 @@ const HeroBanner = () => {
                 mt: { lg: "120px", xs: "70px" },
                 ml: { sm: "50px" },
             }} position="relative" p="20px">
-                <Typography color="#FF2625" fontSize="26px" fontWeight="600">
+                <Typography color="#FF2625" fontSize="30px" fontWeight="600">
                     Fitness Club
                 </Typography>
                 <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px' } }}
